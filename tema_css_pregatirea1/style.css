@@ -12,58 +12,21 @@ h2{
     font-weight: 800;
     text-transform: uppercase;
     text-decoration: underline;
+    padding:0 0 50px 0;
 
 }
-.page1 {
-    position:inherit;
-    float: left;
+#container div{
+    position:relativee;
+    left: 10px;
+
     background-color: beige;
     border : 10px double gray;
     border-radius:60px ;
     padding:inherit;
     text-shadow: 2px 2px 15px black;
-    width:45%;
+    width:800px;
     padding: 30px;
     margin-right: 20px;
     margin-bottom: 20px;
-    
+    float:left;
 }
-.page2 {
-    position: relative;
-    float: left;
-    background-color: beige;
-    border : 10px double gray;
-    border-radius:60px ;
-    
-    text-shadow: 2px 2px 15px black;
-    width:45%;
-    padding: 30px;
-   
-    
-}
-.page3 {
-    position: relative;
-    float: left;
-    background-color: beige;
-    border : 10px double gray;
-    border-radius:60px ;
-    padding:inherit;
-    text-shadow: 2px 2px 15px black;
-    width:45%;
-    padding: 30px;
-    margin-right:20px ;
-    
-}
-.page4 {
-    position: relative;
-    float: left;
-    background-color: beige;
-    border : 10px double gray;
-    border-radius:60px ;
-    padding: 30px;
-    text-shadow: 2px 2px 15px black;
-    width:45%;
-    
-    
-}
-
