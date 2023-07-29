@@ -1,0 +1,12 @@
+Pagina Index
+LOGIN
+REGISTER
+Contact
+
+Dashboard
+Lista Moderatori
+Lista PRroduse
+Lista utilizatori
+Magazin online
+
+ACP Admin Control Panel
