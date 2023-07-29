@@ -5,6 +5,14 @@ body{
     background-color:gray;  
 
 }
+
+p:first-letter{
+    font-size:200%;
+}
+p::first-line{
+    font-weight: bold;
+
+}
 h2{
     color: aquamarine;
     text-align: center;
@@ -16,9 +24,8 @@ h2{
 
 }
 #container div{
-    position:relativee;
-    left: 10px;
-
+    position:relative;
+    display:block;
     background-color: beige;
     border : 10px double gray;
     border-radius:60px ;
@@ -26,7 +33,9 @@ h2{
     text-shadow: 2px 2px 15px black;
     width:800px;
     padding: 30px;
-    margin-right: 20px;
-    margin-bottom: 20px;
+    margin-right: 50px;
+    margin-bottom: 50px;
     float:left;
+
+
 }
