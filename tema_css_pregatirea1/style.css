@@ -9,7 +9,7 @@ body{
 p:first-letter{
     font-size:200%;
 }
-p::first-line{
+p:first-line{
     font-weight: bold;
 
 }
@@ -21,7 +21,6 @@ h2{
     text-transform: uppercase;
     text-decoration: underline;
     padding:0 0 50px 0;
-
 }
 #container div{
     position:relative;
