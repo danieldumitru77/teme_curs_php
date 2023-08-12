@@ -7,92 +7,227 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Nunito:ital,wght@0,300;1,300&family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500&display=swap" rel="stylesheet">
+    
     <link rel="shortcut icon" type="image/jpg" href="assets/img/icons8-store-64.png"/>
-    <link rel="stylesheet" href="assets/style/style.css">
+    <link rel="stylesheet" href="assets/style/style-index.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 </head>
 <body>
-         <header>
-            <div class="header-invelis">
-                <h2>Home</h2>
-                <div class="img_logo">
-                    <img src="assets/img/Apple-logo.png" width="40" title="Logo" alt="Logo">
-                </div>
-                <div id="header_text">
-                <p>Acesta este un magazin online</p>
-                </div>
+    <header class="sticky">
+        <a href="#" class="logo"><img src="assets/img/Apple-logo.png" ></a>
 
-            </div>
-         </header>
-
-         <nav>
-            <ul>
-                <li><a href="index.html">Index</a></li>
-                <li><a href="pages/login.html">LogIn</a></li>
-                <select>
-                    <option><a href="pages"></a>Sub_categorie1</option>
-                    <option><a href="pages"></a>Sub_categorie2</option>
-                    <option><a href="pages"></a>Sub_categorie3</option>
-                    <option><a href="pages"></a>Sub_categorie4</option>
-                </select>
-                <li><a href="pages/register.html">Registor</a></li>
-                <li><a href="pages/contact.html">Contact</a></li>
-            </ul>
-         </nav>
-         <section>
-            <aside>
-            <div class="searched">
-                <form action="#" method="get">
-                    Search <input type="text" name="searched">
-                           <input type="submit" value="Cauta">
-
-                </form>
-            </div>    
-                
-            </aside>
-            <div class="home-page">
-            
-                <div class="art-1">
-                    <img src="assets/img/Apple-logo.png" width=300px title="Articol 1">
-                    <p>Text... <button>Click me</button></p>
-                </div>
-
-                <div class="art-2">
-                    <img src="assets/img/Apple-logo.png" width=300px title="Articol 1">
-                    <p>Text... <button>Click me</button></p>
-                </div>
-
-                <div class="art-3">
-                    <img src="assets/img/Apple-logo.png" width=300px title="Articol 1">
-                    <p>Text... <button>Click me</button></p>
-                </div>
-
-                <div class="art-4">
-                    <img src="assets/img/Apple-logo.png" width=300px title="Articol 1">
-                    <p>Text... <button>Click me</button></p>
-                </div>
-            </div>
-
-
-         </section>
+        <ul class="nav-menu">
+            <li><a href="pages/login.html">LogIn</a></li>
+            <li><a href="pages/register.html">Register</a></li>
+            <li><a href="pages/contact.html">Contact</a></li>
+        </ul>
         
-         <main>
-             <section class="section_1">
+        <div class="nav-icon">
+            <a href="#"><i class='bx bx-search-alt-2'></i></a>
+            <a href="#"><i class='bx bxs-user' ></i></a>
+            <a href="#"><i class='bx bx-cart' ></i></a>
+            <div class='bx bx-menu' id="menu-icon"></div>
+        </div>  
+    </header>     
+    
+    <section class="main-home">
+        <div class="main-text">
+            <h5>Summer Collection</h5>
+            <h1>New Summer<br>Collection</h1>
+            <p>There's Nothing like Trend</p>
 
+            <a href="#" class="main-btn">Shop New<i class='bx bx-right-arrow-alt'></i>
+            </a>
+        </div>
+        
+        <div class="down-arrow">
+            <a href="#trending" class="down"><i class='bx bxs-down-arrow-alt'></i></a>
 
-             </section>
-             <section class="section_2">
-                
+        </div>
 
-             </section>
+    </section>
+     <!--Section products in trending-->
+     <section class="trending-product" id="trending">
+        <div class="center-text">
+            <h2>Our Trending <span>Products</span></h2>
+        </div>
 
+        <div class="products">
+            <div class="row">
+                <img src="./assets/img/product_1.jpg" >
+                <div class="product-text">
+                    <h5>Sale</h5>
+                </div>
+                <div class="heart-icon">
+                    <i class='bx bx-heart'></i>      
+                </div>
+                <div class="ratting">
+                    <i class='bx bx-star' ></i>
+                    <i class='bx bx-star' ></i>
+                    <i class='bx bx-star' ></i>
+                    <i class='bx bx-star' ></i>
+                    <i class='bx bxs-star-half' ></i>
+                </div>
+                <div class="price">
+                    <h4>Half Running Set</h4>
+                    <p>$99 - $129</p>
+                </div>
+            </div>
 
-         </main>
-         <footer>
-            <!--<?php echo date('Y'); ?> -->
-            &copy; Learn PHP
+            <div class="row">
+                <img src="./assets/img/product_2.jpg" >
+                <div class="product-text">
+                    <h5>New</h5>
+                </div>
+                <div class="heart-icon">
+                    <i class='bx bx-heart'></i>      
+                </div>
+                <div class="ratting">
+                    <i class='bx bx-star' ></i>
+                    <i class='bx bx-star' ></i>
+                    <i class='bx bx-star' ></i>
+                    <i class='bx bx-star' ></i>
+                    <i class='bx bxs-star-half' ></i>
+                </div>
+                <div class="price">
+                    <h4>Formal Men Lowers</h4>
+                    <p>$99 - $129</p>
+                </div>
+            </div>
             
-         </footer>
+            <div class="row">
+                <img src="./assets/img/product_3.jpg" >
+             
+                <div class="heart-icon">
+                    <i class='bx bx-heart'></i>      
+                </div>
+                <div class="ratting">
+                    <i class='bx bx-star' ></i>
+                    <i class='bx bx-star' ></i>
+                    <i class='bx bx-star' ></i>
+                    <i class='bx bx-star' ></i>
+                    <i class='bx bxs-star-half' ></i>
+                </div>
+                <div class="price">
+                    <h4>Half Running Suit</h4>
+                    <p>$99 - $129</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <img src="./assets/img/product_4.jpg" >
+                <div class="product-text">
+                    <h5>Hot</h5>
+                </div>
+                <div class="heart-icon">
+                    <i class='bx bx-heart'></i>      
+                </div>
+                <div class="ratting">
+                    <i class='bx bx-star' ></i>
+                    <i class='bx bx-star' ></i>
+                    <i class='bx bx-star' ></i>
+                    <i class='bx bx-star' ></i>
+                    <i class='bx bxs-star-half' ></i>
+                </div>
+                <div class="price">
+                    <h4>Half Fancy Lady Dress</h4>
+                    <p>$99 - $129</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <img src="./assets/img/product_5.jpg" >
+                <div class="product-text">
+                    <h5>Sale</h5>
+                </div>
+              
+                <div class="ratting">
+                    <i class='bx bx-star' ></i>
+                    <i class='bx bx-star' ></i>
+                    <i class='bx bx-star' ></i>
+                    <i class='bx bx-star' ></i>
+                    <i class='bx bxs-star-half' ></i>
+                </div>
+                <div class="price">
+                    <h4>Flix Flox Jeans</h4>
+                    <p>$99 - $129</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <img src="./assets/img/product_6.jpg" >
+                <div class="product-text">
+                    <h5>Hot</h5>
+                </div>
+                <div class="heart-icon">
+                    <i class='bx bx-heart'></i>      
+                </div>
+                <div class="ratting">
+                    <i class='bx bx-star' ></i>
+                    <i class='bx bx-star' ></i>
+                    <i class='bx bx-star' ></i>
+                    <i class='bx bx-star' ></i>
+                    <i class='bx bxs-star-half' ></i>
+                </div>
+                <div class="price">
+                    <h4>Fancy Salwar Suits</h4>
+                    <p>$99 - $129</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <img src="./assets/img/product_7.jpg" >
+                <div class="product-text">
+                    <h5>Sale</h5>
+                </div>
+                <div class="heart-icon">
+                    <i class='bx bx-heart'></i>      
+                </div>
+                <div class="ratting">
+                    <i class='bx bx-star' ></i>
+                    <i class='bx bx-star' ></i>
+                    <i class='bx bx-star' ></i>
+                    <i class='bx bx-star' ></i>
+                    <i class='bx bxs-star-half' ></i>
+                </div>
+                <div class="price">
+                    <h4>Printed Kurta</h4>
+                    <p>$99 - $129</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <img src="./assets/img/product_8.jpg" >
+                <div class="product-text">
+                    <h5>Sale</h5>
+                </div>
+                <div class="heart-icon">
+                    <i class='bx bx-heart'></i>      
+                </div>
+                <div class="ratting">
+                    <i class='bx bx-star' ></i>
+                    <i class='bx bx-star' ></i>
+                    <i class='bx bx-star' ></i>
+                    <i class='bx bx-star' ></i>
+                    <i class='bx bxs-star-half' ></i>
+                </div>
+                <div class="price">
+                    <h4>Collot Full Dress</h4>
+                    <p>$99 - $129</p>
+                </div>
+            </div>
+        
+
+        </div>
+
+     </section>
+
+
+
+        
+      
+     
     
 </body>
 </html>
