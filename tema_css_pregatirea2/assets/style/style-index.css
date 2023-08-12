@@ -140,3 +140,119 @@ section{
     padding: 12px 12px;
     transition: all 1s ease;
 }
+
+/* trending products css style */
+.center-text h2{
+    color:#111;
+    font-size: 28px;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.center-text span{
+    color: #1cee3f;
+}
+
+.products{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(260px,auto));
+    gap:2rem;
+}
+.row{
+    position: relative;
+    transition: all 1s ease;
+}
+
+.row img{
+
+    width: 100%;
+    height: auto;
+    transition: all 1s ease;
+}
+.row img:hover{
+    transform: scale(1.03);
+}
+.product-text h5{
+    position: absolute;
+    top: 13px;
+    left: 13px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform:uppercase;
+    background-color: #272cb7;
+    padding: 2px 10px;
+    border-radius: 7%;
+}
+.heart-icon {
+    position: absolute;
+    right: 0;
+    font-size: 20px;
+
+}
+.heart-icon:hover{
+    color: #ee1c47;
+}
+.ratting i {
+    color: darkorange;
+    font-size: 15px;
+
+}
+.price h4{
+    color: #111;
+    font-size: 16px;    
+    text-transform: capitalize;
+    font-weight: 500;
+}
+.price p{
+    color: #151515;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/*sectiune de update css */
+.up-center-text h2{
+    text-align: center;
+    color:#111;
+    font-size: 27px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+.cart img{
+    width: 380px;
+    height:auto;
+    border-radius: 5px;
+}
+.update-cart{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(380px,auto));
+    gap:1rem;
+}
+.cart h5{
+    color:#636872;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+.cart h4{
+    color: #111;
+    font-size: 18px;
+    font-weight: 600;
+}
+.cart p{
+    color: #707070;
+    font-size: 15px;
+    max-width: 380px;
+    line-height: 25px;
+    margin-bottom: 25px;
+}
+.cart h6{
+    color: #151515;
+    font-size: 14px;
+    font-weight: 500;
+    max-width: 380px;
+    line-height: 25px;
+    margin-bottom: 25px;
+}
