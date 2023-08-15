@@ -262,9 +262,15 @@ section{
     background-color: #f3f4f6;
 }
 .contact-info{
-    display: grid;
+    /*display: grid;
     grid-template-columns: repeat(auto-fit,minmax(160px,auto));
-    gap: 1rem;;
+    */
+    display: flex;
+
+    gap: 1rem;
+}
+.contact-info div{
+    flex: 1 1 200px;
 }
 
 .contact img{
